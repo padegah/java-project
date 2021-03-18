@@ -2,7 +2,9 @@ package classes;
 
 import java.util.ArrayList;
 
-public class Branch 
+import interfaces.IBranch;
+
+public class Branch implements IBranch
 {
 
 	private String name;

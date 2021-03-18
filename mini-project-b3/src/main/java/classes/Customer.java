@@ -2,7 +2,9 @@ package classes;
 
 import java.util.ArrayList;
 
-public class Customer 
+import interfaces.ICustomer;
+
+public class Customer implements ICustomer
 {
 
 	private String name;

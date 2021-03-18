@@ -2,7 +2,9 @@ package classes;
 
 import java.util.ArrayList;
 
-public class Bank 
+import interfaces.IBank;
+
+public class Bank implements IBank
 {
 
 	ArrayList<Branch> branches;
@@ -14,6 +16,7 @@ public class Bank
 		this.branches = new ArrayList<Branch>();
 	}
 	
+	@Override
 	public boolean addBranch(String name)
 	{
 		if(findBranch(name) == null)
@@ -25,6 +28,7 @@ public class Bank
 		return false;
 	}
 	
+	@Override
 	public boolean addCustomer(String branchName, String customerName, double transaction)
 	{
 		Branch branch = findBranch(branchName);
@@ -37,6 +41,7 @@ public class Bank
 		return false;
 	}
 	
+	@Override
 	public boolean addCustomerTransaction(String branchName, String customerName, double transaction)
 	{
 		Branch branch = findBranch(branchName);
@@ -64,6 +69,7 @@ public class Bank
 		return null;
 	}
 	
+	@Override
 	public boolean listCustomers(String branchName, boolean printTransactions)
 	{
 		Branch branch = findBranch(branchName);
