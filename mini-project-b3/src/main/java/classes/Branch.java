@@ -21,7 +21,7 @@ public class Branch implements IBranch
 		return this.name;
 	}
 	
-	public ArrayList<Customer> getCustomer()
+	public ArrayList<Customer> getCustomers()
 	{
 		return this.customers;
 	}

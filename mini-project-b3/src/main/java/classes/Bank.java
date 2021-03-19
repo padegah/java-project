@@ -78,7 +78,7 @@ public class Bank implements IBank
 		{
 			System.out.println("Customer details for branch " + branchName);
 			
-			ArrayList<Customer> branchCustomers = branch.getCustomer();
+			ArrayList<Customer> branchCustomers = branch.getCustomers();
 			
 			int arr = branchCustomers.size();
 			

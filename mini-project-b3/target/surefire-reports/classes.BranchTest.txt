@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: com.adegah.mini_project_b3.AppTest
+Test set: classes.BranchTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec

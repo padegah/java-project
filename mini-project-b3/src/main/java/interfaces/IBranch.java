@@ -9,7 +9,7 @@ public interface IBranch
 
 	public String getName();
 	
-	public ArrayList<Customer> getCustomer();
+	public ArrayList<Customer> getCustomers();
 	
 	public boolean newCustomer(String name, double transaction);
 	
